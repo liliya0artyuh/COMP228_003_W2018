@@ -1,0 +1,16 @@
+package ifstatement;
+
+public class Driver_strings {
+
+	public static void main(String[] args) {
+
+
+		
+		if ("John".equalsIgnoreCase("Sally")) {
+			System.out.println("fgdfgd ");
+		} else {
+			System.out.println("not equals");
+		}
+	}
+
+}

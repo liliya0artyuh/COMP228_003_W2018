@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package UML;
+
+/**
+ * @author lartyukh
+ *
+ */
+public class Phone {
+
+	private String type;
+	public int model;
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

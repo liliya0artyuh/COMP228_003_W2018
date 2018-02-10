@@ -1,0 +1,20 @@
+package method;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		method1();
+		sayHello();
+
+		// invoke second method
+	}
+	public static void sayHello() {
+		System.out.println("Hello students!");
+	}
+
+	//create second method
+	public static void method1() {
+		System.out.println("I don't what to say");
+		}
+	
+}

@@ -1,0 +1,12 @@
+package method;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		sayHello();
+	}
+	public static void sayHello() {
+		System.out.println("Hello students!");
+	}
+
+}

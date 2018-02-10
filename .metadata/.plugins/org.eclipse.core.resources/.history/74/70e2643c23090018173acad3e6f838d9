@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+
+/**
+ * @author lartyukh
+ *
+ */
+public class Driver {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Account account=new Account();
+		System.out.println("Name:"+ account.name);
+		
+		System.out.println("Surname:"+account.surname);
+
+	}
+
+}

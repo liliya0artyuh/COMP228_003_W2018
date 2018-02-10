@@ -1,0 +1,8 @@
+package house;
+
+public class House {
+
+	Door door = new Door();
+	
+	Table table = new Table();
+}
