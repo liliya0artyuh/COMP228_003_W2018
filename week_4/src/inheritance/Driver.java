@@ -17,5 +17,6 @@ public class Driver {
 		System.out.println("----------------");
 		d.move();
 		f.move();
+		System.out.println(f.toString());
 	}
 }

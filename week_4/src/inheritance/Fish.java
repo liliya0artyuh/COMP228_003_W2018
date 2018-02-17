@@ -19,8 +19,16 @@ public class Fish extends Animal {
 		this.fins = fins;
 	}
 
+	@Override
 	public void move() {
 		super.move();
 		System.out.printf("%s is swimming.%n", type);
 	}
+
+	@Override
+	public String toString() {
+		return "Fish [fins=" + fins + ", type=" + type + "]";
+	}
+	
+	
 }
