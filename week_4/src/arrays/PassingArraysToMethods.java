@@ -6,6 +6,7 @@ public class PassingArraysToMethods {
 		// Passing arrays and individual array elements to methods.
 		// main method creates array and calls modifyArray and modifyElement
 		int[] array = { 1, 2, 3, 4, 5 };
+		int[] array2 = { 1, 2, 3, 4, 5 };
 		System.out
 				.printf("Effects of passing reference to entire array:%n" + "The values of the original array are:%n");
 		// output original array elements
@@ -24,7 +25,7 @@ public class PassingArraysToMethods {
 		System.out.printf("array[3] after modifyElement: %d%n", array[3]);
 	}
 
-	public static void modifyArray(int[] array2) {
+	public static void modifyArray(int[] array2) {//only reference (address in memory) is passed)
 		for (int counter = 0; counter < array2.length; counter++) {
 			array2[counter] *= 2;
 		}
