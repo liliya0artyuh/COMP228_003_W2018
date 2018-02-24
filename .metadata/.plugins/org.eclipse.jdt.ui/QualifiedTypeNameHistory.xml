@@ -4,4 +4,9 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="furniture.Table"/>
 <fullyQualifiedTypeName name="enum_weather.Weather.Type"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="junit_test.Door"/>
+<fullyQualifiedTypeName name="junit_test.House"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="java.text.NumberFormat"/>
 </qualifiedTypeNameHistroy>
