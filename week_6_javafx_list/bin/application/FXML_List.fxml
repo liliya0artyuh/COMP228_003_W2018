@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<GridPane prefWidth="454.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Main_Controller">
+  <children>
+    <VBox id="daysList" fx:id="vBox" prefHeight="133.0" prefWidth="134.0" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.rowSpan="3">
+      <children>
+        <ListView fx:id="daysList">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Monday" />
+              <String fx:value="Tuesday" />
+              <String fx:value="Wednesday" />
+              <String fx:value="Thursday" />
+              <String fx:value="Friday" />
+              <String fx:value="Saturday" />
+              <String fx:value="Sunday" />
+            </FXCollections>
+          </items>
+        </ListView>
+      </children>
+    </VBox>
+    <Button fx:id="btnShow" mnemonicParsing="false" onAction="#handleShowButtonEvend" prefWidth="134.0" text="Show selection" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+    <Label fx:id="lblSelection" prefWidth="300.0" text="You have selected:" GridPane.columnIndex="3" GridPane.columnSpan="3" GridPane.rowIndex="2" />
+  </children>
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="73.0" minWidth="10.0" prefWidth="10.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="134.0" minWidth="10.0" prefWidth="121.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="76.0" minWidth="10.0" prefWidth="25.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="101.0" minWidth="10.0" prefWidth="101.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="76.0" minWidth="10.0" prefWidth="63.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="136.0" minWidth="10.0" prefWidth="124.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="76.0" minWidth="10.0" prefWidth="10.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="17.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="43.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="47.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="53.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="30.0" minHeight="7.0" prefHeight="13.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+</GridPane>
