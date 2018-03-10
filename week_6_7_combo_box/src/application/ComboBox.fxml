@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.MyCheckBoxesController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <GridPane layoutX="7.0" layoutY="5.0">
+      <children>
+        <ComboBox fx:id="comboBox" onAction="#handleComboBoxAction" GridPane.columnIndex="1" GridPane.rowIndex="0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+            </FXCollections>
+          </items>
+        </ComboBox>
+        <Label id="textField" fx:id="label" minWidth="100.0" prefWidth="193.0" text="" wrapText="true" GridPane.columnIndex="0" GridPane.columnSpan="2147483647" GridPane.rowIndex="1" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+</AnchorPane>

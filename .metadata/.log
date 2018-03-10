@@ -228,3 +228,488 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2018-02-24 13:01:05.282
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-02-24 15:40:41.382
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [displayFlyableThings(List<Flyable>) [in Driver [in [Working copy] Driver.java [in interfaces [in src [in week_5_part2]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.Member.getFlags(Member.java:165)
+	at org.eclipse.jdt.internal.corext.util.JdtFlags.isPrivate(JdtFlags.java:159)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkSuperImplementationDetector.isOverriddenMethod(JavaElementHyperlinkSuperImplementationDetector.java:54)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkSuperImplementationDetector.addHyperlinks(JavaElementHyperlinkSuperImplementationDetector.java:41)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:115)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:78)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:286)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:259)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:454)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:213)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-02-24 15:40:41.384
+!MESSAGE displayFlyableThings(List<Flyable>) [in Driver [in [Working copy] Driver.java [in interfaces [in src [in week_5_part2]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-02-24 15:40:41.410
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [displayFlyableThings(List<Flyable>) [in Driver [in [Working copy] Driver.java [in interfaces [in src [in week_5_part2]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceMethod.getReturnType(SourceMethod.java:188)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkReturnTypeDetector.addHyperlinks(JavaElementHyperlinkReturnTypeDetector.java:40)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:115)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:78)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:286)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:259)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:454)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:213)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-02-24 15:40:41.411
+!MESSAGE displayFlyableThings(List<Flyable>) [in Driver [in [Working copy] Driver.java [in interfaces [in src [in week_5_part2]]]]] does not exist
+!SESSION 2018-03-10 12:46:30.030 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170524-2000
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-10 12:46:49.802
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lartyukh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-03-10 12:51:37.908 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170524-2000
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.linuxtools.docker.core 4 0 2018-03-10 12:53:46.327
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.linuxtools.docker.core [1092]
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.201708010032"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20170512-1932"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.201708010032"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20170512-1932"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.201708010032"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.spotify.docker.client)(bundle-version>=6.1.1))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="6.1.1.v20170301-1624"; osgi.wiring.bundle="com.spotify.docker.client"
+  com.spotify.docker.client [osgi.identity; type="osgi.bundle"; version:Version="6.1.1.v20170301-1624"; osgi.identity="com.spotify.docker.client"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.0))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1628)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1607)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1579)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1522)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.linuxtools.docker.ui 4 0 2018-03-10 12:53:46.337
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.linuxtools.docker.ui [1095]
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="3.1.0.201708010032"; singleton:="true"
+       org.eclipse.linuxtools.docker.core [1092]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.ui [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.201708010032"; osgi.identity="org.eclipse.linuxtools.docker.ui"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20170512-1932"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.ui [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.201708010032"; osgi.identity="org.eclipse.linuxtools.docker.ui"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20170512-1932"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.ui [osgi.identity; type="osgi.bundle"; version:Version="3.1.0.201708010032"; osgi.identity="org.eclipse.linuxtools.docker.ui"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.spotify.docker.client)(bundle-version>=3.6.8))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="6.1.1.v20170301-1624"; osgi.wiring.bundle="com.spotify.docker.client"
+  com.spotify.docker.client [osgi.identity; type="osgi.bundle"; version:Version="6.1.1.v20170301-1624"; osgi.identity="com.spotify.docker.client"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.0))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1628)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1607)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1579)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1522)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.linuxtools.jdt.docker.launcher 4 0 2018-03-10 12:53:46.354
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.linuxtools.jdt.docker.launcher [1096]
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.ui
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.ui; bundle-version="3.1.0.201708010032"; singleton:="true"
+       org.eclipse.linuxtools.docker.ui [1095]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="3.1.0.201708010032"; singleton:="true"
+              org.eclipse.linuxtools.docker.core [1092]
+                No resolution report for the bundle.  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="3.1.0.201708010032"; singleton:="true"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.jdt.docker.launcher [osgi.identity; type="osgi.bundle"; version:Version="1.0.0.201708010032"; osgi.identity="org.eclipse.linuxtools.jdt.docker.launcher"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20170512-1932"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.jdt.docker.launcher [osgi.identity; type="osgi.bundle"; version:Version="1.0.0.201708010032"; osgi.identity="org.eclipse.linuxtools.jdt.docker.launcher"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.osgi)
+     |
+    provide: osgi.wiring.bundle: [org.eclipse.osgi, system.bundle]
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20170512-1932"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.jdt.docker.launcher [osgi.identity; type="osgi.bundle"; version:Version="1.0.0.201708010032"; osgi.identity="org.eclipse.linuxtools.jdt.docker.launcher"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.spotify.docker.client)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="6.1.1.v20170301-1624"; osgi.wiring.bundle="com.spotify.docker.client"
+  com.spotify.docker.client [osgi.identity; type="osgi.bundle"; version:Version="6.1.1.v20170301-1624"; osgi.identity="com.spotify.docker.client"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.0))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1628)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1607)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1579)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1522)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.jboss.tools.openshift.cdk.server 4 0 2018-03-10 12:53:46.393
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.openshift.cdk.server [1308]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.openshift.ui; bundle-version="3.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.openshift.ui; bundle-version="3.4.0.v20170802-1433"; singleton:="true"
+       org.jboss.tools.openshift.ui [1316]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.ui; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.ui; bundle-version="3.1.0.201708010032"; singleton:="true"
+              org.eclipse.linuxtools.docker.ui [1095]
+                Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="1.0.0"
+                  -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="3.1.0.201708010032"; singleton:="true"
+                     org.eclipse.linuxtools.docker.core [1092]
+                       No resolution report for the bundle.         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="3.1.0.201708010032"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="3.1.0.201708010032"; singleton:="true"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.4.0.v20170802-1433"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20170512-1932"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.4.0.v20170802-1433"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.core.runtime)
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20170512-1932"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.4.0.v20170802-1433"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.spotify.docker.client)(bundle-version>=3.4.0))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="6.1.1.v20170301-1624"; osgi.wiring.bundle="com.spotify.docker.client"
+  com.spotify.docker.client [osgi.identity; type="osgi.bundle"; version:Version="6.1.1.v20170301-1624"; osgi.identity="com.spotify.docker.client"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.0))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1628)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1607)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1579)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1522)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.jboss.tools.openshift.ui 4 0 2018-03-10 12:53:46.425
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.openshift.ui [1316]
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.ui; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.ui; bundle-version="3.1.0.201708010032"; singleton:="true"
+       org.eclipse.linuxtools.docker.ui [1095]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="3.1.0.201708010032"; singleton:="true"
+              org.eclipse.linuxtools.docker.core [1092]
+                No resolution report for the bundle.  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="3.1.0.201708010032"; singleton:="true"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.4.0.v20170802-1433"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20170512-1932"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.4.0.v20170802-1433"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.core.runtime)
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.12.0.v20170512-1932"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.4.0.v20170802-1433"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.spotify.docker.client)(bundle-version>=3.4.0))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="6.1.1.v20170301-1624"; osgi.wiring.bundle="com.spotify.docker.client"
+  com.spotify.docker.client [osgi.identity; type="osgi.bundle"; version:Version="6.1.1.v20170301-1624"; osgi.identity="com.spotify.docker.client"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.0))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1628)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1607)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1579)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1522)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-03-10 12:54:03.054
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerContainersView' id and the 'Docker Containers' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-10 12:54:03.327
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lartyukh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-03-10 12:54:03.525
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerImagesView' id and the 'Docker Images' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-03-10 12:54:03.705
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerExplorerView' id and the 'Docker Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-03-10 12:54:03.722
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerImageHierarchyView' id and the 'Docker Image Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-03-10 12:54:07.401
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: week_4
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot create file, access denied: C:\Users\lartyukh\Desktop\Java 228 lab_2\week_4\bin\inheritance.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:45)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:318)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1195)
+	at org.eclipse.core.internal.resources.Folder.internalCreate(Folder.java:172)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:105)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createFolder(AbstractImageBuilder.java:473)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder$1.visit(AbstractImageBuilder.java:257)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.addAllSourceFiles(AbstractImageBuilder.java:222)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:52)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\lartyukh\Desktop\Java 228 lab_2\week_4\bin\inheritance
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(Unknown Source)
+	at java.nio.file.Files.createDirectory(Unknown Source)
+	at java.nio.file.Files.createAndCheckIsDirectory(Unknown Source)
+	at java.nio.file.Files.createDirectories(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:307)
+	... 27 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 280 2018-03-10 12:54:07.402
+!MESSAGE Cannot create file, access denied: C:\Users\lartyukh\Desktop\Java 228 lab_2\week_4\bin\inheritance.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\lartyukh\Desktop\Java 228 lab_2\week_4\bin\inheritance
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(Unknown Source)
+	at java.nio.file.Files.createDirectory(Unknown Source)
+	at java.nio.file.Files.createAndCheckIsDirectory(Unknown Source)
+	at java.nio.file.Files.createDirectories(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:307)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1195)
+	at org.eclipse.core.internal.resources.Folder.internalCreate(Folder.java:172)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:105)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createFolder(AbstractImageBuilder.java:473)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder$1.visit(AbstractImageBuilder.java:257)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.addAllSourceFiles(AbstractImageBuilder.java:222)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:52)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:175)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-03-10 12:54:32.007
+!MESSAGE Connection to http://download.jboss.org/jbosstools/oxygen/stable/updates/discovery.earlyaccess/4.5.2.Final/plugins/org.jboss.tools.central.discovery.earlyaccess_4.5.2.Final-v20180122-2302-B3194.jar failed on Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-10 13:28:27.651
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-10 13:28:27.652
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2018-03-10 13:56:50.939
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.NameLookup.findType(NameLookup.java:835)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1271)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1352)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1258)
+	at org.eclipse.fx.ide.model.internal.FXCtrlField.getType(FXCtrlField.java:47)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:164)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:208)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:89)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
