@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Mar 31 11:23:49 EDT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0162-7ca8-55a1-000006ca64a0 
+on database directory F:\2018\git_code\COMP228_003_W2018\COMP228_003_W2018\db_addressbook_example\addressbooks with class loader sun.misc.Launcher$AppClassLoader@659e0bfd 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_65/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_65-b17
+user.dir=F:\2018\git_code\COMP228_003_W2018\COMP228_003_W2018\db_addressbook_example
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
