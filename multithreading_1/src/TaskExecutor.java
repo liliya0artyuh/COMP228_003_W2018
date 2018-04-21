@@ -1,6 +1,7 @@
 // Fig. 23.4: TaskExecutor.java
 // Using an ExecutorService to execute Runnables.
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 
@@ -27,6 +28,24 @@ public class TaskExecutor
       executorService.shutdown(); 
 
       System.out.printf("Tasks started, main ends.%n%n");
+      
+      try{
+          // wait 1 minute for both writers to finish executing
+          boolean tasksEnded = 
+             executorService.awaitTermination(1, TimeUnit.MINUTES);
+
+          if (tasksEnded)
+          {
+             System.out.printf("%nContents of SimpleArray:%n");
+          }else {
+             System.out.println(
+                "Timed out while waiting for tasks to finish.");
+          }
+       } 
+       catch (InterruptedException ex)
+       {
+          ex.printStackTrace();
+       } 
    } 
 } // end class TaskExecutor
 

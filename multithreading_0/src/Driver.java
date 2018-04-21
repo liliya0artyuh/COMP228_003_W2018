@@ -7,13 +7,14 @@ public class Driver {
 
 	      // create each thread with a new targeted runnable
 	     
-	     MyTask printTaskd1 = new MyTask( "task1", 1  );
-	      Thread thread1 = new Thread(printTaskd1);
+	     PrintTask printTaskd1 = new PrintTask( "task1"  );
+	      
+	     Thread thread1 = new Thread(printTaskd1);
 	      
 	      
 	      
-	      Thread thread2 = new Thread( new MyTask( "task2", 2 ));
-	      Thread thread3 = new Thread( new MyTask( "task3", 3 ) );
+	      Thread thread2 = new Thread( new PrintTask( "task2" ));
+	      Thread thread3 = new Thread( new PrintTask( "task3" ) );
 
 	      System.out.println( "Threads created, starting tasks." );
 
