@@ -22,7 +22,7 @@ public class ArrayListExample {
 		houses.add(new House(200.00, "200"));
 		houses.add(new House(400.00, "400"));
 		houses.add(new House(100.00, "100"));
-	//	Collections.sort(houses);
+		//Collections.sort(houses);
 		System.out.println("houses: " + houses);
 
 
